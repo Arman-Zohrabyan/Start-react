@@ -1,0 +1,296 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+button:disabled,button:disabled:hover {
+	background: lightgray;
+	cursor: default;
+}
+
+/* Search */
+
+.contacts {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacts-list {
+  padding: 0;
+  width: 100%;
+}
+
+.contact {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 30%;
+    float: left;
+    border: 1px dotted grey;
+    margin-bottom: 15px;
+    margin-right: 3%;
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px darkgrey;
+    background-color: rgb(240,240,240);
+	        user-select: none;
+	   -moz-user-select: none;
+	 -khtml-user-select: none;
+	-webkit-user-select: none;
+}
+
+.contact:hover {
+	background: lightgray;
+}
+
+.contact-image {
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.contact-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-number {
+  font-size: 18px;
+  color: grey;
+}
+
+.asort-btn {
+	float: left;
+	padding: 5px 8px;
+}
+
+.dsort-btn {
+	float: right;
+	padding: 5px 8px;
+}
+
+.search-content-loading {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background: url("../images/load.gif") no-repeat center;
+	background-size: 20% 20%;
+}
+
+/* Append */
+
+#append {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form-not-valid {
+	color: red;
+    font-size: 20px;
+    border: 1px solid green;
+    padding: 5px 8px;
+	cursor: default;
+	        user-select: none;
+	   -moz-user-select: none;
+	 -khtml-user-select: none;
+	-webkit-user-select: none;
+}
+
+/* Menu */
+
+
+#site-content {
+	max-width:1080px;
+	margin: 0 auto;
+	box-shadow: 0 10px 50px darkslategrey;
+	background-color: darkslategray;
+}
+
+#site-content:after, .clear-both:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#menu {
+	width: 18%;
+	background: darkslategray;
+	float: left;
+	min-height: 100vh;
+}
+
+.content-section {
+	background-color: white;
+	padding-top: 20px;
+	box-sizing: border-box;
+	float: left;
+	width: 82%;
+	min-height: 100vh;
+}
+
+.place-for-logo {
+	cursor: pointer;
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+.active-tab {
+	background: lightgray !important;
+}
+
+/* TopPart */
+
+#TopPart {
+	width: 82%;
+	height: 50px;
+	float: right;
+}
+
+#TopPart * {
+	cursor: default;
+	user-select: none;
+}
+
+.place-for-measure {
+	width: 80%;
+    margin: 0 auto;
+    height: 40px;
+	color: wheat;
+}
+
+.significative, .empty-measure {
+	height: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.significative {
+	background: #c9b7a2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2e3d2), to(#c9b7a2));
+    background: -webkit-linear-gradient(top, #f2e3d2, #c9b7a2);
+}
+.measure-info-container {
+	height: 18px;
+}
+.measure-info {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+/* Delete */
+
+#delete {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.delete-box {
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+	width: 46%;
+	float: left;
+	border: 1px solid grey;
+	margin-top: 12px;
+	box-shadow: 0 0 10px 1px dimgrey;
+	border-radius: 10px;
+	        user-select: none;
+	   -moz-user-select: none;
+	 -khtml-user-select: none;
+	-webkit-user-select: none;
+}
+
+.delete-box:nth-child(2n) {
+  float: right;
+}
+
+.delete-box:hover {
+	box-shadow: 0 0 15px 5px darkslategrey;
+	cursor: pointer
+}
+
+.contact-image {
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.contact-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-number {
+  font-size: 18px;
+  color: grey;
+}
+
+.delete {
+	background: lightgray;
+	box-shadow: 0 0 5px 1px red;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.page-btn {
+	padding: 3px 6px;
+	margin: 0 2px;
+    cursor: pointer;
+	outline: none;
+}
+
+.page-btn.active-btn {
+	border: 2px solid red;
+	cursor: default;
+}
+
+/* useful */
+
+.my-btn {
+	color: #333;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 6px 12px;
+	margin: 5px;
+    cursor: pointer;
+    text-align: center;
+	list-style-type: none;
+	outline: none;
+}
+.my-btn:hover {
+	color: #333;
+    background-color: darkgray;
+}
+
+.m_top_20 {
+	margin-top: 20px;
+}
+
+.w_50percent {
+	width: 50%;
+}
+
+.margin-auto {
+	margin: 0 auto;
+}
+
+.search-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
