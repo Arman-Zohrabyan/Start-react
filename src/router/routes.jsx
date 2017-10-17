@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, IndexRedirect } from 'react-router'
 
-import Search from '../components/pages/search';
-import Append from '../components/pages/add_data';
-import Delete from '../components/pages/delete';
-import Layout from '../layout';
+import Search from '../components/pages/search.jsx';
+import Append from '../components/pages/add_data.jsx';
+import Delete from '../components/pages/delete.jsx';
+import Layout from '../layout.jsx';
 
 
 export default (

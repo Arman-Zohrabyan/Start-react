@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import "../../css/modal.css";
-
 export default class Modal extends Component {
 	constructor(props) {
 		super(props);

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import '../../css/style.css';
-
 export default class StaticTopPart extends Component {
 	constructor(props) {
 		super(props);
@@ -16,7 +14,7 @@ export default class StaticTopPart extends Component {
 	componentWillReceiveProps(props) {
 		this.setState({
 			dataCount: props.dataCount.length,
-			percent: props.dataCount.length * this.state.max / 100
+			percent: props.dataCount.length * 100 / this.state.max
 		});
 	}
 	

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-import '../../css/style.css';
-
-import Modal from '../modal/showInfo';
+import Modal from '../modal/showInfo.jsx';
 
 
 export default class Search extends Component {

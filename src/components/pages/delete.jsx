@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 
-import '../../css/style.css';
-
-import serviceAdd from '../../services/query'
+import serviceAdd from '../../services/query.js'
 
 export default class Delete extends Component {
 	constructor(props) {

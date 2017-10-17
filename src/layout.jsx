@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 
-import './css/style.css';
-
-import StaticTopPart from './components/static/percentageInfo';
-import Menu from './components/static/menu';
-import serviceAdd from './services/query'
+import StaticTopPart from './components/static/percentageInfo.jsx';
+import Menu from './components/static/menu.jsx';
+import serviceAdd from './services/query.js'
 
 
 export default class Layout extends Component {

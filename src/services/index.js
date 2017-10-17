@@ -1,6 +1,6 @@
 'use strict'
 
-import serviceAdd from './query'
+import serviceAdd from './query.js'
 
 export {
 	serviceAdd

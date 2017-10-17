@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 
-import '../../css/style.css';
-
 export default class Menu extends Component {
 	constructor(props) {
 		super(props);

@@ -134,7 +134,7 @@ button:disabled,button:disabled:hover {
 }
 
 .place-for-logo {
-	cursor: pointer;
+	cursor: url('https://www.w3schools.com/cssref/smiley.gif'), none;
     height: 50px;
     width: 100%;
     background: black;
