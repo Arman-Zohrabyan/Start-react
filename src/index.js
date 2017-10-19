@@ -1,8 +1,11 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, browserHistory } from 'react-router'
+import { Router, browserHistory, useRouterHistory } from 'react-router'
+import { createBrowserHistory } from 'history';
 
 import routes from './router/routes.jsx'
+
+useRouterHistory(createBrowserHistory);
 
 function init() {
 ReactDOM.render(

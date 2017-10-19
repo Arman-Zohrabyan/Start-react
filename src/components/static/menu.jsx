@@ -24,7 +24,7 @@ export default class Menu extends Component {
 					{
 						Object.keys(paths).map( (val, key) => (
 							<Link key={key} to={val}>
-								<li className={(val===current_path) ? "my-btn active-tab" : "my-btn"}>{paths[val]}</li>
+								<li className={(val===current_path || val + '/'===current_path) ? "my-btn active-tab" : "my-btn"}>{paths[val]}</li>
 							</Link>
 						))
 					}
